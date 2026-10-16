@@ -11,7 +11,7 @@
 > **Access the Interactive Pricing Simulator or Download the Excel Model**
 >
 > - **[🌐 Launch the Free Web-Based B2B Landed Cost & Pricing Calculator](BROWSER_DEMO_URL)** — Run instant cross-border margin simulations in your browser with zero installation or signup.
-> - **[📥 Download the Reusable B2B Distribution Pricing & Profitability Excel Workbook (.xlsx)](EXCEL_PURCHASE_URL)** — Get the full offline spreadsheet model for custom SKU catalogs, persistent financial auditing, and executive pricing reviews.
+> - **[📥 Download the Reusable B2B Distribution Pricing & Profitability Excel Workbook (.xlsx)](https://theseusworkshop.com/l/mzjxa)** — Get the full offline spreadsheet model for custom SKU catalogs, persistent financial auditing, and executive pricing reviews.
 >
 
 
