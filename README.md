@@ -1,112 +1,137 @@
-# B2B Distribution Pricing & Profitability Engine
+# B2B Distribution Pricing & Profitability Engine: Landed Cost, Cost-to-Serve & Wholesale Margin Excel Model
+
+**A cross-border B2B wholesale pricing calculator, landed cost simulator, and multi-country profitability modeling template for international distributors and commercial finance teams.**
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 ![Platform: Browser + Excel](https://img.shields.io/badge/Platform-Browser%20%2B%20Excel-2563EB)
-![Tool Type: Decision Support](https://img.shields.io/badge/Tool-Decision%20Support-0F766E)
+![Tool Type: Pricing & Financial Model](https://img.shields.io/badge/Tool-Pricing%20%26%20Financial%20Model-0F766E)
 
-**Turn cross-border distribution costs into defensible pricing, discount limits, fulfillment decisions, and country-level profitability insights — with a free browser-based workflow and a reusable Excel decision model.**
+**The B2B Distribution Pricing & Profitability Engine is a free browser-based calculator and reusable Excel financial model designed for cross-border wholesalers, importers, and B2B distributors. It transforms raw supplier FOB quotes into SKU-level landed costs, customer cost-to-serve (CTS) metrics, pocket margin price waterfalls, multi-echelon fulfillment comparisons, and working-capital cash flow forecasts—preventing margin erosion from unpriced freight, duties, payment terms, and FX volatility.**
 
-> **Choose how to work**
+> **Access the Interactive Pricing Simulator or Download the Excel Model**
 >
-> - **[🌐 Open in Browser](BROWSER_DEMO_URL)** — Use the web-based version without installation or signup.
-> - **[📥 Get the Excel Version](EXCEL_PURCHASE_URL)** — Use the offline workbook for repeatable analysis, financial records, and internal review.
->
-> No signup. No installation. Free browser access. The Excel version supports a more persistent, reusable analysis workflow.
+> - **[🌐 Launch the Free Web-Based B2B Landed Cost & Pricing Calculator](BROWSER_DEMO_URL)** — Run instant cross-border margin simulations in your browser with zero installation or signup.
+> - **[📥 Download the Reusable B2B Distribution Pricing & Profitability Excel Workbook (.xlsx)](EXCEL_PURCHASE_URL)** — Get the full offline spreadsheet model for custom SKU catalogs, persistent financial auditing, and executive pricing reviews.
 >
 > *Publication note: Replace `BROWSER_DEMO_URL` and `EXCEL_PURCHASE_URL` with the actual distribution URLs before publishing.*
 
-## What It Helps You Track
+---
 
-- **True delivered cost by SKU and country** — Separate product acquisition, international freight, insurance, non-recoverable import duties, customs handling, and downstream fulfillment costs.
-- **Defensible price boundaries** — Compare standard list prices, target selling prices, and minimum acceptable prices before commercial concessions are approved.
-- **The real cost of customer terms** — Quantify how order size, payment terms, delivery arrangements, and discounts affect realized contribution margin.
-- **The economics of fulfillment choices** — Compare a regional distribution hub, country-level warehouses, and direct shipment to identify the conditions under which a different logistics model becomes more attractive.
-- **Inventory and working-capital exposure** — Connect demand assumptions, lead times, safety stock, reorder points, purchasing quantities, and cash requirements.
-- **Country-level and consolidated profitability** — Examine revenue, cost of goods sold, operating profit, currency translation, and financing pressure across four Central American markets.
+## Core Commercial & Financial Tracking Capabilities: Pain-Point to Solution Mapping
 
-## Quick Start Workflow
+For commercial analysts and wholesale operators searching for a reliable **landed cost spreadsheet** or **B2B margin waterfall template**, this framework bridges the gap between gross invoice markups and true realized net profitability:
 
-The model is designed around a repeatable process: establish the commercial assumptions, maintain the source data, evaluate the economics, and refresh the analysis when conditions change.
+| Cross-Border Distribution Pain Point | High-Frequency Search Intent / Module | How This Financial & Pricing Engine Solves It |
+| :--- | :--- | :--- |
+| **Hidden Import & Logistics Costs Erode Gross Margin** | **SKU-Level Landed Cost & Import Duty Calculator** | Separates supplier FOB/EXW purchase prices from ocean/air freight, marine insurance, non-recoverable import tariffs, customs brokerage fees, and local drayage by country. |
+| **Sales Reps Over-Discount Below Profitable Floors** | **B2B Price Waterfall & Floor Price Guardrail Model** | Establishes clear commercial tiers—comparing Standard List Price, Target Selling Price, and Minimum Acceptable Price (MAP) based on hard contribution-margin floors. |
+| **Unpriced Customer Concessions Destroy Deal Economics** | **Customer Cost-to-Serve (CTS) & Pocket Margin Analyzer** | Quantifies how small order sizes (MOQ violations), extended net payment terms (DSO financing cost), rebates, and last-mile delivery eat into net realized contribution margin. |
+| **Suboptimal Warehouse & Shipping Network Design** | **Multi-Echelon Fulfillment & Logistics Crossover Model** | Compares unit economics across a Regional Distribution Center (RDC), country-level bonded/local warehouses, and direct drop-shipping to find volume crossover points. |
+| **Excess Working Capital Trapped in Slow-Moving Stock** | **Inventory Replenishment, Safety Stock & Cash Cycle Tracker** | Links demand forecasts, supplier lead times, safety stock buffers, Reorder Points (ROP), and Economic Order Quantities (EOQ) directly to cash-tie-up and working-capital exposure. |
+| **FX Volatility & Local Borrowing Rates Distort Regional P&L** | **Multi-Currency Country P&L & FX Sensitivity Model** | Consolidates revenue, COGS, contribution margin, local WACC/financing costs, and currency translation across four Central American markets into one unified reporting currency. |
 
-### 1. Set the decision parameters
+---
 
-Establish the active demand scenario, reporting currency, target and minimum contribution margins, cost-of-capital assumptions, service-level target, discount approval threshold, and inventory warning criteria.
+## Step-by-Step Tutorial: How to Build Defensible B2B Pricing & Run Profitability Scenarios
 
-These parameters define the commercial boundaries against which the model evaluates pricing, purchasing, fulfillment, and profitability.
+The financial model operates on a repeatable 4-step commercial governance loop: configure macroeconomic guardrails, maintain SKU and country master data, stress-test customer deal economics, and audit consolidated cash flow.
 
-### 2. Maintain the product and country inputs
+### Step 1: Configure Global Commercial Guardrails & WACC Parameters
+**Action:** Set your baseline financial targets and risk thresholds in the Parameters module.
+Define your active demand scenario, base reporting currency (e.g., USD), target and floor contribution margin percentages, Weighted Average Cost of Capital (WACC), target cycle service levels, discount escalation thresholds, and inventory days-on-hand (DOH) warning triggers.
 
-Enter the SKU master data, supplier prices, packaging specifications, country-specific exchange rates, import duties, VAT treatment, local financing rates, and operating cost assumptions.
+### Step 2: Populate SKU Master Data, Import Tariffs, and Country Tax Inputs
+**Action:** Input supplier catalogs, dimensional weight specs, and country-specific trade rules.
+Enter SKU supplier quotes, pallet/container packaging specs, country-specific FX exchange rates, HS code import duty rates, VAT/GST recoverability rules, local short-term borrowing rates, and warehouse handling fees. Refresh these inputs whenever freight forwarder quotes or central bank rates shift.
 
-Update the underlying assumptions when supplier quotations, freight rates, tax treatment, exchange rates, or local operating costs change.
+### Step 3: Calculate Landed Cost, Cost-to-Serve, and Customer Deal Floors
+**Action:** Run the pricing engine to evaluate proposed customer quotes before signing commercial contracts.
+Review fully burdened landed cost and order-level cost-to-serve prior to setting prices. Benchmark proposed sales discounts, order quantities, credit terms (e.g., Net 30 vs. Net 90), and freight terms (CIF/DDP) against minimum margin guardrails and minimum order quantity (MOQ) policies.
 
-### 3. Evaluate costs and commercial terms
+### Step 4: Stress-Test Multi-Country P&L and Transition to the Reusable Excel Workbook
+**Action:** Audit consolidated profitability, working-capital financing gaps, and macroeconomic sensitivity.
+Inspect country-by-country operating profit, cash conversion cycle (CCC) pressure, and margin sensitivity to container freight spikes, demand drops, or local currency devaluations to flag commercial terms requiring executive escalation.
 
-Review landed cost and cost-to-serve before evaluating prices. Compare the resulting price boundaries with proposed discounts, customer order quantities, payment terms, delivery arrangements, and minimum-order policies.
+> **Ready to move from browser scenario testing to repeatable enterprise price governance?**  
+> Once you validate the methodology in the web app, **[Download the Full B2B Distribution Pricing & Profitability Excel Model (.xlsx)](EXCEL_PURCHASE_URL)** to plug in your proprietary SKU catalog, save historical deal quotes, and run offline quarterly price book updates in Microsoft Excel.
 
-Use the logistics and inventory analyses to test whether a proposed commercial decision remains operationally and financially viable.
+---
 
-### 4. Review profitability and stress scenarios
+## Why Use a Dedicated Landed Cost & Cost-to-Serve Model Instead of Basic Markup Pricing?
 
-Inspect country-level and consolidated financial results, working-capital requirements, financing gaps, and sensitivity to demand changes, freight increases, and exchange-rate movements.
+In **cross-border B2B wholesale distribution**, product pricing often looks profitable on paper when commercial teams rely on a simple **supplier purchase price plus standard percentage markup**. The financial leakage only surfaces after the inventory moves through the physical supply chain and credit cycle.
 
-Use the results to identify decisions that need revision, escalation, or further verification.
+Between the factory gate and final cash collection, a single SKU absorbs **international ocean/air freight, cargo insurance, non-recoverable import duties, port demurrage, customs clearance, inland haulage, bonded warehousing, pick-and-pack labor, last-mile delivery, sales commissions, and accounts receivable (AR) financing costs**. Operating across multiple countries adds diverging FX rates, VAT structures, local working-capital borrowing costs, and sovereign credit risks.
 
-**Set the assumptions. Maintain the inputs. Evaluate the economics. Refresh when conditions change.**
+When freight tables, customs tariffs, and sales quotes live in disconnected spreadsheets, a sales representative sees a healthy **40% gross margin**, while the company actually loses money at the **net pocket margin** level due to an unpriced combination of volume discounts, Net 90 payment terms, and LTL (Less-Than-Truckload) delivery to a remote buyer.
 
-## Why I Built This
+This **B2B Distribution Pricing & Profitability Engine** replaces rule-of-thumb markups with **productized commercial reasoning**:
+1. It builds up true **SKU-level landed cost** by destination market and fulfillment pathway.
+2. It layers on **order-specific cost-to-serve (CTS)**, including logistics handling and the time-value financing cost of extended customer credit terms.
+3. It enforces hard **contribution-margin floors** via a transparent price waterfall before discounts are approved.
+4. It connects commercial pricing decisions directly to **inventory replenishment math (ROP/safety stock)** and **multi-country working-capital cash requirements**.
 
-Cross-border distribution can look profitable when pricing decisions rely primarily on supplier purchase prices and a standard markup. The problem appears after the product enters the actual operating system.
+The goal is not to replace your accounting ERP or WMS. It is to expose the true unit economics of cross-border commercial decisions *before* binding quotes and supply commitments are signed.
 
-A shipment may carry import duties, insurance, port handling, inland transport, warehousing, picking, last-mile delivery, sales commissions, credit exposure, and financing costs. Different countries also introduce different currencies, tax treatments, local borrowing rates, and commercial risks.
+---
 
-When these costs are maintained in separate spreadsheets, a sales representative may see a healthy product margin while the business absorbs an uneconomic combination of discounts, extended payment terms, and expensive delivery.
+## Traditional Cost-Plus Markup Spreadsheets vs. Integrated B2B Price Waterfall Modeling
 
-Consider a distributor evaluating a customer order. The product appears profitable using its supplier purchase price and a standard markup. However, the order requires a small shipment, a long payment term, and delivery to a remote customer.
+| Commercial & Financial Dimension | Without This Tool (Static Cost-Plus Markup Sheets) | With This Tool (Integrated Landed Cost & Price Waterfall Engine) |
+| :--- | :--- | :--- |
+| **Delivered Unit Cost Accuracy** | **Naive FOB Markup:** Pricing relies on factory purchase cost plus a flat markup, ignoring ocean freight surges, HS tariff rates, port handling, and warehouse storage. | **Granular Landed Cost Build-Up:** Explicitly itemizes product acquisition, international freight, marine insurance, customs duties, and local fulfillment per SKU and country. |
+| **Discount & Concession Governance** | **Uncontrolled Margin Leakage:** Sales reps stack invoice discounts, free shipping, and extended credit terms without seeing the cumulative impact on net pocket margin. | **Enforced Contribution Margin Floors:** Evaluates net invoice realization against Target Price, Minimum Acceptable Price (MAP), and management escalation thresholds. |
+| **Multi-Country Performance Benchmarking** | **Distorted Regional Margins:** Comparing headline gross margins across countries fails to account for local currency depreciation, differing duty regimes, and local interest rates. | **FX-Adjusted Consolidated P&L:** Normalizes country-specific tariffs, VAT treatment, and local WACC financing costs into a unified reporting currency for apples-to-apples comparison. |
+| **Fulfillment & Warehouse Network Strategy** | **Static Logistics Routing:** Choosing between a regional hub, local country warehouses, or direct shipping is done by gut feel rather than volume-based unit economics. | **Dynamic Logistics Crossover Modeling:** Simulates cost structures across Central Hub, Local Warehouse, and Direct Drop-Ship models to identify volume break-even points. |
+| **Inventory & Working-Capital Alignment** | **Siloed Purchasing & Finance:** Inventory planners order stock based on rough averages, trapping excess cash in safety stock without visibility into balance-sheet financing costs. | **Integrated ROP, Safety Stock & Cash Modeling:** Connects lead times, demand variability, service levels, and supplier MOQs directly to working-capital cash requirements. |
+| **Profitability vs. Cash Flow Reality** | **Accrual Profit Illusion:** P&L statements show positive accounting operating profit while the business suffers severe cash crunches from slow inventory turns and long DSO receivables. | **Working-Capital-Adjusted Deal Economics:** Deduces the financing cost of inventory holding and customer credit terms directly from transaction-level contribution margins. |
 
-The original price calculation may omit the incremental delivery cost and the financing cost of the receivable. The apparent margin therefore overstates the economics of the transaction.
+---
 
-A more defensible decision starts with the product's landed cost, adds the cost of serving that particular order, and then evaluates the proposed selling price against a defined contribution-margin floor.
+## Ideal Users, Commercial Roles, and Wholesale Industry Use Cases
 
-The question changes from *"Does this price include a markup?"* to *"Does this transaction cover its relevant costs and satisfy the business's minimum return requirements?"*
+### Who This Is For (Role-to-Workflow Mapping)
 
-I designed this project as **productized reasoning**: a reusable decision framework that applies the same commercial logic across SKUs, customers, countries, demand scenarios, and fulfillment arrangements. The purpose is not to replace an ERP or execute transactions. It is to make the economic consequences of commercial decisions visible before commitments are made.
+- **B2B Pricing Managers & Commercial Directors** searching for a **B2B price waterfall and discount approval Excel template** to set defensible list prices, target prices, and walk-away floor prices across multi-country sales teams.
+- **Importers, Regional Wholesalers & Trading Company Owners** needing an **import landed cost and tariff calculator spreadsheet** to accurately price container and pallet shipments across borders without losing margin to customs duties and freight volatility.
+- **Commercial Finance, FP&A Analysts & Controllers** looking for a **cost-to-serve (CTS) and customer profitability financial model** to audit how payment terms (DSO), order sizes, and logistics concessions impact net operating profit and working capital.
+- **Supply Chain Planners & Logistics Managers** requiring a **multi-echelon fulfillment and inventory replenishment model** to evaluate regional distribution hubs vs. local warehousing and calculate safety stock cash exposure.
+- **Fractional CFOs & Pricing Consultants** building a **reusable, audit-ready B2B distribution decision support system** for small-to-midsize enterprise (SME) wholesale clients lacking enterprise CPQ or pricing software.
 
-## Common B2B Distribution Problems This Solves
+### Target Distribution Sectors & Cross-Border Use Cases
 
-| Problem | Without This Tool | With This Tool |
-|---|---|---|
-| Understated delivered cost | Purchase-price markup overlooks import, handling, storage, delivery, or financing costs. | Landed cost and cost-to-serve are evaluated separately and combined into a delivered-cost view. |
-| Discounts destroy contribution margin | Individually reasonable discounts accumulate with payment and delivery concessions. | Effective invoice economics can be compared against the minimum acceptable margin and approval threshold. |
-| Country comparisons are misleading | Different currencies, duties, financing rates, and operating costs make headline margins difficult to compare. | Country-specific assumptions support local analysis and consolidated reporting in a common currency. |
-| Fulfillment infrastructure is poorly matched to demand | A central warehouse, local inventory, or direct shipment is selected without comparing their cost structures. | Logistics scenarios can be compared against volume assumptions and potential crossover points. |
-| Inventory consumes more cash than expected | Forecast demand, replenishment timing, safety stock, and supplier order constraints are evaluated separately. | Purchasing and inventory assumptions feed into replenishment calculations and working-capital analysis. |
-| Reported profit hides financing pressure | Accounting profitability is reviewed without examining the cash tied up in receivables and inventory. | Financial modeling connects operating performance with working-capital needs and potential financing gaps. |
+This financial modeling framework is purpose-built for **multi-country B2B distribution, import/export trading, and regional wholesale operations** (modeled natively with a 4-market Central American regional case study, adaptable to any multi-country corridor):
+- **Industrial Supplies, MRO, Hardware & Building Materials Distributors**
+- **Cross-Border Consumer Goods (FMCG), Food & Beverage Importers**
+- **Chemical, Agricultural Input & Specialty Raw Material Wholesalers**
+- **Medical Device, Pharmaceutical & Commercial Equipment Regional Master Distributors**
+- **Automotive Aftermarket Parts & Heavy Duty Component Networks**
 
-## Who This Is For
+### Model Scope & Operational Boundaries
 
-This framework is intended for B2B distributors, regional wholesalers, pricing managers, commercial finance teams, supply-chain planners, and business owners managing cross-border product flows.
+To remain fast, transparent, and immediately usable without IT integration:
+- **What It Is:** A pre-transaction strategic pricing, landed-cost, fulfillment, and working-capital simulation engine.
+- **What It Is Not:** It is **not** a transaction-processing ERP (SAP, NetSuite, Microsoft Dynamics), a statutory tax-filing or automated customs brokerage classification engine (HTS/HS legal compliance), or an automated EDI invoicing platform. Accurate decision outputs depend on validated commercial, freight, and tariff inputs.
 
-It is especially relevant when multiple countries share a supplier base but differ in import costs, local currency, financing conditions, customer terms, and delivery economics.
+---
 
-It is less suited to businesses seeking a transaction-processing ERP, a tax-filing system, a substitute for customs classification advice, or a model that can produce reliable decisions without validated inputs.
+## About the Architecture: Productized Commercial Reasoning in Excel & Web
 
-**No spreadsheet expertise is needed to begin with the browser version.** The Excel implementation is designed for teams that want a reusable model they can inspect, adapt, and operate with their own assumptions.
+Complex distribution businesses often bleed margin not from a lack of data, but because **purchasing data, freight tariffs, warehouse rates, sales discounts, and financing costs sit in five separate spreadsheets**. 
 
-## About
+This project approaches spreadsheet engineering as **productized commercial reasoning** centered on one core question:
 
-I build lightweight trackers and decision-support tools for situations with too many moving parts to manage reliably in separate spreadsheets or in memory.
+> *"What exact cost, logistics, and financing variables must be connected in one view so a commercial team can approve a price, quote a customer, or choose a fulfillment route with complete confidence?"*
 
-The recurring question is straightforward: **What information needs to be in one place to make the next decision confidently?**
-
-The B2B Distribution Pricing & Profitability Engine applies that approach to international distribution. It connects product economics, country-level operating conditions, commercial policy, fulfillment choices, and financial exposure without attempting to replace the organization's core transaction systems.
+The **B2B Distribution Pricing & Profitability Engine** links **Supplier FOB Costs → Cross-Border Landed Costs → Order-Level Cost-to-Serve → Price Waterfall Guardrails → Inventory Working Capital → Multi-Country Consolidated P&L** into one transparent, auditable model—giving distributors enterprise-grade pricing discipline without enterprise software overhead.
 
 ## Technical Details
 
 <details>
 <summary>For technical reviewers, Excel practitioners, and collaborators</summary>
 
-### Workbook Architecture
+<details>
+<summary><strong>Workbook Architecture</strong></summary>
 
 The workbook consists of six functional modules and 16 business worksheets. Its architecture follows a decision-oriented sequence: master data establishes the assumptions, cost engines determine the economics, commercial rules establish pricing boundaries, operational models test fulfillment feasibility, financial analysis evaluates the consequences, and the final outputs support management review and customer communication.
 
@@ -119,7 +144,8 @@ The workbook consists of six functional modules and 16 business worksheets. Its 
 | Financial Modeling & Sensitivity | `13_Financial Model`, `14_Sensitivity` | Evaluate country-level and consolidated profitability, working capital, financing gaps, and downside scenarios. |
 | Executive Dashboard & Price Lists | `15_Decision Dashboard`, `16_Customer Price Lists` | Surface decision alerts and produce customer-facing price lists without exposing internal cost and margin data. |
 
-#### Data flow
+<details>
+<summary><strong>Data flow</strong></summary>
 
 ```text
 Product Master ─────────┐
@@ -154,7 +180,10 @@ Demand & Orders ─────────────> Cost-to-Serve Engine
 
 The dependency diagram describes the intended analytical flow. Specific formulas may reference multiple upstream tables directly; the diagram is not a claim that every worksheet depends exclusively on the immediately preceding worksheet.
 
-#### Core design principles
+</details>
+
+<details>
+<summary><strong>Core design principles</strong></summary>
 
 - **Single source of truth:** Global assumptions belong in the control panel, country-specific assumptions in the country master, and operational rates in the cost inputs table.
 - **Structured data:** Standard Excel Tables use the `tbl_` naming convention. Structured references reduce the need to maintain changing cell ranges manually.
@@ -163,7 +192,10 @@ The dependency diagram describes the intended analytical flow. Specific formulas
 - **Tax treatment separation:** Non-recoverable import duties are included in landed cost. Recoverable VAT is tracked separately rather than automatically treated as an economic cost.
 - **Decision-oriented outputs:** Prices, order thresholds, fulfillment recommendations, and financial alerts are intended to make operational trade-offs visible before commercial commitments are made.
 
-#### Worksheet responsibilities
+</details>
+
+<details>
+<summary><strong>Worksheet responsibilities</strong></summary>
 
 | Worksheet | Main inputs | Main outputs |
 |---|---|---|
@@ -184,7 +216,10 @@ The dependency diagram describes the intended analytical flow. Specific formulas
 | `15_Decision Dashboard` | Selected country or consolidated view, upstream model outputs | Profitability indicators, exception lists, approval alerts |
 | `16_Customer Price Lists` | Selected country and quotation currency | Customer-facing product prices, order quantities, commercial notes |
 
-#### Country and currency model
+</details>
+
+<details>
+<summary><strong>Country and currency model</strong></summary>
 
 The country master covers four markets:
 
@@ -197,9 +232,15 @@ The country master covers four markets:
 
 The exchange-rate convention is **local currency units per USD**. These values are implementation examples, not verified live exchange rates or current tax guidance. Production use requires current, approved financial and statutory inputs.
 
-### Three Traps That Catch Even Experienced Distribution Managers
+</details>
 
-#### Trap 1 — A positive markup is not proof of a profitable order
+</details>
+
+<details>
+<summary><strong>Three Traps That Catch Even Experienced Distribution Managers</strong></summary>
+
+<details>
+<summary><strong>Trap 1 — A positive markup is not proof of a profitable order</strong></summary>
 
 **1. Decision:** Approve a customer price because it exceeds the supplier's FOB purchase price.
 
@@ -254,9 +295,13 @@ Total_Delivered_Cost_USD =
 ```
 
 **Logic note:** Recoverable VAT is maintained as a separate tax-reference amount in the specified landed-cost design. Confirm local tax treatment before applying the model to actual transactions.
+
 </details>
 
-#### Trap 2 — Discount, payment terms, and delivery cannot be assessed independently
+</details>
+
+<details>
+<summary><strong>Trap 2 — Discount, payment terms, and delivery cannot be assessed independently</strong></summary>
 
 **1. Decision:** Grant a volume discount and longer payment terms while retaining free delivery.
 
@@ -299,9 +344,13 @@ Max_Allowable_Discount_% =
 ```
 
 These expressions assume a margin defined as a percentage of selling price and valid margin inputs below 100%. The order-level margin must still be calculated using the effective selling price and the costs relevant to that transaction.
+
 </details>
 
-#### Trap 3 — Positive operating profit does not guarantee adequate liquidity
+</details>
+
+<details>
+<summary><strong>Trap 3 — Positive operating profit does not guarantee adequate liquidity</strong></summary>
 
 **1. Decision:** Expand distribution because the projected country P&L shows positive operating profit.
 
@@ -328,9 +377,15 @@ Net_Working_Capital =
 A simplified funding-gap measure can compare modeled funding requirements with available financing capacity. The precise calculation depends on the workbook's financing assumptions and the fields implemented in the financial model.
 
 A positive working-capital requirement is not automatically a credit shortfall. A financing gap exists only when the relevant funding requirement exceeds the available funding capacity under the model's definitions.
+
 </details>
 
-### Example Scenario
+</details>
+
+</details>
+
+<details>
+<summary><strong>Example Scenario</strong></summary>
 
 Consider an illustrative SKU supplied at an FOB price of $10.00 per unit. The product is shipped to one of the modeled markets and sold to a customer under a defined delivery and payment arrangement.
 
@@ -369,7 +424,8 @@ The next decision is not automatically to reject the transaction. It is to deter
 
 </details>
 
-### Formula Reference
+<details>
+<summary><strong>Formula Reference</strong></summary>
 
 The formulas below document the principal calculation patterns and their business purpose. They are based on the implementation specification. Before production deployment, reconcile each expression with the final workbook's actual table names, columns, and formula cells.
 
@@ -754,7 +810,10 @@ The customer price-list output is designed to expose product identifiers, descri
 
 </details>
 
-### Validation Rules
+</details>
+
+<details>
+<summary><strong>Validation Rules</strong></summary>
 
 The following checks define the minimum controls required for a dependable implementation. Some are explicitly specified in the source; others are recommended safeguards for validating the stated calculation logic. A recommended safeguard should not be treated as an already implemented workbook feature until verified.
 
@@ -784,7 +843,8 @@ The following checks define the minimum controls required for a dependable imple
 | Formula integrity | Calculated columns must remain formulas and extend when their Excel Tables expand. | Flag overwritten formulas or rows outside the intended table range. |
 | Customer price list | Must exclude internal procurement costs, duty details, operating cost rates, and internal margin measures. | Review the exported customer-facing output for unintended internal disclosure. |
 
-#### Model integrity checks
+<details>
+<summary><strong>Model integrity checks</strong></summary>
 
 Before relying on the workbook, verify the following:
 
@@ -799,6 +859,11 @@ Before relying on the workbook, verify the following:
 The implementation specification describes the 29-input and 24-output cross-check as complete. That documented design assertion should be distinguished from independent verification of a finished workbook: actual formula integrity, numerical accuracy, and operational behavior require testing against the implemented file and representative test cases.
 
 </details>
+
+</details>
+
+</details>
+
 
 ## The Business Logic & Methodology
 
