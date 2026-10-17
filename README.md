@@ -11,8 +11,8 @@
 
 > **Access the Interactive Pricing Simulator or Download the Excel Model**
 >
-> - **[🌐 Launch the Free Web-Based B2B Landed Cost & Pricing Calculator](BROWSER_DEMO_URL)** — Run instant cross-border margin simulations in your browser with zero installation or signup.
-> - **[📥 Download the Reusable B2B Distribution Pricing & Profitability Excel Workbook (.xlsx)](https://theseusworkshop.com/l/mzjxa)** — Get the full offline spreadsheet model for custom SKU catalogs, persistent financial auditing, and executive pricing reviews.
+> - **[🌐 Launch the Free Web-Based B2B Landed Cost & Pricing Calculator](https://hyvoid.github.io/b2b-pricing-landed-cost-excel-model/)** — Run instant cross-border margin simulations in your browser with zero installation or signup.
+> - **[📥 Download the Reusable B2B Distribution Pricing & Profitability Excel Workbook (.xlsx)](https://theseusworkshop.com/l/mzjxa?utm_source=github&utm_medium=GitHub%20README)** — Get the full offline spreadsheet model for custom SKU catalogs, persistent financial auditing, and executive pricing reviews.
 >
 
 
@@ -54,7 +54,7 @@ Review fully burdened landed cost and order-level cost-to-serve prior to setting
 Inspect country-by-country operating profit, cash conversion cycle (CCC) pressure, and margin sensitivity to container freight spikes, demand drops, or local currency devaluations to flag commercial terms requiring executive escalation.
 
 > **Ready to move from browser scenario testing to repeatable enterprise price governance?**  
-> Once you validate the methodology in the web app, **[Download the Full B2B Distribution Pricing & Profitability Excel Model (.xlsx)](EXCEL_PURCHASE_URL)** to plug in your proprietary SKU catalog, save historical deal quotes, and run offline quarterly price book updates in Microsoft Excel.
+> Once you validate the methodology in the web app, **[Download the Full B2B Distribution Pricing & Profitability Excel Model (.xlsx)](https://theseusworkshop.com/l/mzjxa?utm_source=github&utm_medium=GitHub%20README)** to plug in your proprietary SKU catalog, save historical deal quotes, and run offline quarterly price book updates in Microsoft Excel.
 
 ---
 
