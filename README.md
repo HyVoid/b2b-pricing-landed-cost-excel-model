@@ -1,4 +1,5 @@
 # B2B Distribution Pricing & Profitability Engine: Landed Cost, Cost-to-Serve & Wholesale Margin Excel Model
+<img width="1920" height="790" alt="image" src="https://github.com/user-attachments/assets/b608987f-c43c-4b99-b5f0-807f5ef96257" />
 
 **A cross-border B2B wholesale pricing calculator, landed cost simulator, and multi-country profitability modeling template for international distributors and commercial finance teams.**
 
