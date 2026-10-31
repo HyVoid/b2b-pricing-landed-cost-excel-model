@@ -144,18 +144,21 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpenMobile, setIsOpenMobile 
         <div className="p-4 border-b border-[var(--color-border)]">
           <div className="flex items-center justify-between">
             <div
-              className="flex items-center gap-2.5 cursor-pointer"
+              className="flex items-start gap-2.5 cursor-pointer flex-1 min-w-0"
               onClick={() => handleSelectSheet('15_Decision Dashboard')}
             >
-              <div className="w-8 h-8 rounded-[8px] bg-[var(--color-primary)] text-white flex items-center justify-center font-serif-heading font-bold text-sm shadow-sm">
-                DE
+              <div className="w-8 h-8 rounded-[8px] bg-[var(--color-primary)] text-white flex items-center justify-center font-serif-heading font-bold text-xs tracking-wider shrink-0 shadow-sm mt-0.5">
+                TW
               </div>
-              <div>
-                <div className="font-serif-heading font-bold text-[15px] leading-tight text-[var(--color-primary)] tracking-[-0.01em]">
-                  B2B Decision Engine
+              <div className="min-w-0 flex-1">
+                <div className="font-serif-heading font-bold text-[15px] leading-snug text-[var(--color-primary)] tracking-[-0.01em]">
+                  Theseus Workshop
                 </div>
-                <div className="text-[10px] text-[var(--color-muted)] font-mono tracking-wider uppercase">
-                  Central America • 4 Countries
+                <div className="text-[11px] font-medium text-[var(--color-accent)] leading-tight mt-0.5">
+                  B2B Cross-Border Distribution Pricing &amp; Profitability Decision Engine
+                </div>
+                <div className="text-[10px] text-[var(--color-muted)] font-mono tracking-wider uppercase mt-1">
+                  Central America • GT · SV · HN · NI
                 </div>
               </div>
             </div>

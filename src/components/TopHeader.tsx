@@ -27,6 +27,10 @@ export const TopHeader: React.FC<TopHeaderProps> = ({ onToggleMobileMenu }) => {
         </button>
 
         <div className="flex items-center gap-2">
+          <span className="text-[11px] font-semibold text-[var(--color-muted)] tracking-wider uppercase hidden sm:inline">
+            Theseus Workshop
+          </span>
+          <span className="text-[11px] text-[var(--color-muted)] opacity-40 hidden sm:inline">/</span>
           <Layers className="w-4 h-4 text-[var(--color-accent)]" />
           <span className="font-serif-heading font-bold text-sm text-[var(--color-primary)] tracking-[-0.01em]">
             {activeSheet}

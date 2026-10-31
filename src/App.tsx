@@ -87,7 +87,9 @@ const MainContent: React.FC = () => {
                 Client-Side Autonomous Operation
               </span>
               <span>•</span>
-              <span>B2B Cross-Border Distribution Pricing & Profitability Decision Engine</span>
+              <span className="font-semibold text-[var(--color-primary)]">Theseus Workshop</span>
+              <span>•</span>
+              <span>B2B Cross-Border Distribution Pricing &amp; Profitability Decision Engine</span>
             </div>
 
             <div className="flex items-center gap-1.5 text-center sm:text-right font-mono text-[11px] text-[var(--color-muted)]">
