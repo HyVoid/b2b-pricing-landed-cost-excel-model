@@ -33,6 +33,14 @@ For commercial analysts and wholesale operators searching for a reliable **lande
 | **Excess Working Capital Trapped in Slow-Moving Stock** | **Inventory Replenishment, Safety Stock & Cash Cycle Tracker** | Links demand forecasts, supplier lead times, safety stock buffers, Reorder Points (ROP), and Economic Order Quantities (EOQ) directly to cash-tie-up and working-capital exposure. |
 | **FX Volatility & Local Borrowing Rates Distort Regional P&L** | **Multi-Currency Country P&L & FX Sensitivity Model** | Consolidates revenue, COGS, contribution margin, local WACC/financing costs, and currency translation across four Central American markets into one unified reporting currency. |
 
+## Spreadsheet Preview
+
+Want to take a closer look before downloading? You can preview the spreadsheet in Google Sheets to explore its layout, structure, and calculation logic.
+
+**[View Spreadsheet Preview on Google Sheets](https://docs.google.com/spreadsheets/d/19juneABBE0RySg3ah4a-fwa3KrSbJ1jE/edit?usp=sharing&ouid=108770714531989318327&rtpof=true&sd=true)**
+
+> **Note on Compatibility:** The Google Sheets preview may display occasional `#NAME?` errors or formula warnings due to differences between Google Sheets and Microsoft Excel formula compatibility. These are preview-only compatibility issues and do not affect the functionality of the original Excel workbook. For the intended formula behavior and full functionality, please download and open the `.xlsx` file in Microsoft Excel.
+
 ---
 
 ## Step-by-Step Tutorial: How to Build Defensible B2B Pricing & Run Profitability Scenarios
