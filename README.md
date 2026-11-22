@@ -18,6 +18,19 @@
 >
 
 
+
+## Questions, Feedback & Product Updates
+
+This toolkit is designed around practical cross-border b2b landed cost, price waterfalls, cost-to-serve and fx-sensitive margin workflows. Feedback helps identify unclear assumptions, missing scenarios, calculation issues, and improvements to the decision process.
+
+- **Questions & workflow fit:** [Ask about SKU landed-cost build-up, import duties and logistics allocation, price waterfall, minimum acceptable price, customer cost-to-serve, MOQ, rebates, payment-term financing, fulfillment model, FX sensitivity, or country P&L](https://github.com/HyVoid/business-decision-toolbox/discussions/categories/questions).
+- **Ideas & improvements:** [Suggest additional landed-cost components, customer concession types, pricing guardrails, fulfillment comparisons, country assumptions, or profitability reports](https://github.com/HyVoid/business-decision-toolbox/discussions/categories/ideas).
+- **Report a technical problem:** [Open the b2b-pricing-landed-cost-excel-model issue form](https://github.com/HyVoid/b2b-pricing-landed-cost-excel-model/issues/new?template=bug-report.yml).
+- **Product updates:** [Follow maintenance and improvement notes](https://github.com/HyVoid/business-decision-toolbox/discussions/categories/product-updates).
+
+Do not post supplier quotations, customer price lists, customer identities, customs declarations, commercial contracts, bank data, tax identifiers, or proprietary country-level margins. Use fictional SKUs, countries, rates, and deal figures.
+Use the smallest reproducible example possible. Include the relevant worksheet, input field, date or scenario, and expected versus actual result. Browser demos and spreadsheet previews should be described separately from the downloadable Excel workbook when reporting an environment-specific issue.
+
 ---
 
 ## Core Commercial & Financial Tracking Capabilities: Pain-Point to Solution Mapping
